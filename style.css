@@ -1,0 +1,30 @@
+body
+{
+    margin: 0 10%;
+}
+
+#logo, #internalNavigation
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#internalNavigation li
+{
+    display: inline-block;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.description 
+{
+    display:none;
+}
+
+#skills img 
+{
+    width: 100px;
+    margin: 10px;
+}
